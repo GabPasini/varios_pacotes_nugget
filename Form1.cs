@@ -6,6 +6,8 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -15,11 +17,12 @@ namespace WinFormsApp1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            while (idenable != 1)
-            {
-                txtId.ReadOnly = true; 
-                Enabled = false;
-            }
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
